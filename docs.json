@@ -1,0 +1,142 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "palm",
+  "name": "Origin Creations",
+  "colors": {
+    "primary": "#f49a0a",
+    "light": "#ecb95b",
+    "dark": "#de8510"
+  },
+  "favicon": "/images/OriginCreations-RoundedLogo(512x512).png",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "quickstart",
+              "development"
+            ]
+          },
+          {
+            "group": "Oasis Series - Builds",
+            "pages": []
+          },
+          {
+            "group": "Surge Series - Free",
+            "pages": []
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "placeholder-list"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/components",
+              "essentials/reusable-snippets"
+            ],
+            "hidden": true
+          },
+          {
+            "group": "Agent ready",
+            "pages": [
+              "agent-ready/prompt",
+              "agent-ready/visibility",
+              "agent-ready/contextual",
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ],
+            "hidden": true
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ],
+        "hidden": true
+      },
+      {
+        "tab": "Dune Series"
+      }
+    ]
+  },
+  "logo": "/images/OriginCreations-RoundedLogo(512x512).png",
+  "navbar": {
+    "links": [
+      {
+        "href": "https://discord.origincreations.org/",
+        "label": "Discord Server"
+      },
+      {
+        "href": "https://builtbybit.com/origin",
+        "label": "BuiltByBit Store"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "discord": "https://discord.origincreations.org/",
+      "website": "https://builtbybit.com/origin"
+    }
+  },
+  "banner": {
+    "content": "🚀 The beginning of a new adventure at Origin Creations! 🚀"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "interaction": {
+    "drilldown": false
+  }
+}
