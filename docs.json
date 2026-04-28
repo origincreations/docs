@@ -105,12 +105,7 @@
         "href": "https://builtbybit.com/origin",
         "label": "BuiltByBit Store"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
