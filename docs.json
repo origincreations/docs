@@ -43,8 +43,25 @@
       },
       {
         "tab": "Terms of Services",
-        "pages": [
-          "tos"
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "tos"
+            ]
+          },
+          {
+            "group": "Minecraft Services",
+            "pages": [
+              "mc-terms"
+            ]
+          },
+          {
+            "group": "Discord Services",
+            "pages": [
+              "dc-tems"
+            ]
+          }
         ]
       },
       {
