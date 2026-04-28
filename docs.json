@@ -17,8 +17,15 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              {
+                "group": "Terms of Services",
+                "pages": [
+                  "minecraft-services"
+                ]
+              },
+              "tos",
+              "customer",
+              "credits"
             ]
           },
           {
