@@ -140,5 +140,10 @@
   },
   "interaction": {
     "drilldown": false
+  },
+  "background": {
+    "color": {
+      "dark": "#191919"
+    }
   }
 }
