@@ -11,19 +11,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Information",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
               "index",
-              {
-                "group": "Terms of Services",
-                "pages": [
-                  "minecraft-services"
-                ]
-              },
-              "tos",
               "customer",
               "credits"
             ]
@@ -39,30 +32,50 @@
           {
             "group": "Miscellaneous",
             "pages": [
-              "placeholder-list"
+              "placeholder-list",
+              "particles",
+              "sounds",
+              "potions",
+              "enchantments"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Terms of Services",
+        "pages": [
+          "tos"
+        ]
+      },
+      {
+        "tab": "Dune Series"
+      },
+      {
+        "tab": "Hidden",
+        "hidden": true,
+        "groups": [
           {
             "group": "Customization",
+            "hidden": true,
             "pages": [
               "essentials/settings",
               "essentials/navigation"
-            ],
-            "hidden": true
+            ]
           },
           {
             "group": "Writing content",
+            "hidden": true,
             "pages": [
               "essentials/markdown",
               "essentials/code",
               "essentials/images",
               "essentials/components",
               "essentials/reusable-snippets"
-            ],
-            "hidden": true
+            ]
           },
           {
             "group": "Agent ready",
+            "hidden": true,
             "pages": [
               "agent-ready/prompt",
               "agent-ready/visibility",
@@ -70,13 +83,13 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ],
-            "hidden": true
+            ]
           }
         ]
       },
       {
         "tab": "API reference",
+        "hidden": true,
         "groups": [
           {
             "group": "API documentation",
@@ -93,11 +106,7 @@
               "api-reference/endpoint/webhook"
             ]
           }
-        ],
-        "hidden": true
-      },
-      {
-        "tab": "Dune Series"
+        ]
       }
     ]
   },
