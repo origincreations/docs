@@ -72,7 +72,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "information"
+              "dune/information"
             ]
           },
           {
@@ -83,6 +83,24 @@
           }
         ],
         "icon": "cactus"
+      },
+      {
+        "tab": "Harbor Series | Configs",
+        "icon": "anchor",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "harbor/information"
+            ]
+          },
+          {
+            "group": "Configurations",
+            "pages": [
+              "harbor/jetsminions"
+            ]
+          }
+        ]
       },
       {
         "tab": "Hidden",
