@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Information",
+        "tab": "Home",
         "groups": [
           {
             "group": "Getting started",
@@ -39,10 +39,11 @@
               "enchantments"
             ]
           }
-        ]
+        ],
+        "icon": "door-open"
       },
       {
-        "tab": "Terms of Services",
+        "tab": "Information",
         "groups": [
           {
             "group": "Getting started",
@@ -62,22 +63,26 @@
               "dc-tems"
             ]
           }
-        ]
+        ],
+        "icon": "ticket"
       },
       {
         "tab": "Dune Series | Menus",
         "groups": [
           {
             "group": "Getting started",
-            "pages": []
+            "pages": [
+              "information"
+            ]
           },
           {
             "group": "DeluxeMenus",
             "pages": [
-              "potions-shop"
+              "dune/potions-shop"
             ]
           }
-        ]
+        ],
+        "icon": "cactus"
       },
       {
         "tab": "Hidden",
