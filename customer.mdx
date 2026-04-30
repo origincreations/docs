@@ -3,92 +3,73 @@ title: "Customer Levels"
 icon: "arrow-up-right-dots"
 ---
 
-<Info>
-  **Prerequisites**:
+Welcome to the **Origin Creations** Customer Information section. This documentation outlines everything you need to know about our **Customer System**, a program designed to recognize and reward our **customers** with exclusive benefits and unique advantages as part of our community.
 
-  - Node.js version 19 or higher
-  - A docs repository with a `docs.json` file
+<Info>
+  Please note that all **percentages**, **rates**, and **quantities** are subject to change without prior notice. All Customer levels are governed by Origin Creations’ Terms and Conditions to ensure a fair, transparent, and consistent experience for all users.
 </Info>
 
-Follow these steps to install and run Mintlify on your operating system.
+## **Customer Benefits**
 
-<Steps>
-  <Step title="Install the Mintlify CLI">
-    ```bash
-    npm i -g mint
-    ```
-  </Step>
-  <Step title="Preview locally">
-    Navigate to your docs directory where your `docs.json` file is located, and run the following command:
+Explore the exclusive benefits available at each **Customer** level within **Origin Creations**, and progress through the system to unlock even greater rewards.
 
-    ```bash
-    mint dev
-    ```
+|  | **Shell** | **Pebble** | **Beryl** | **Abyss** | **Azure** |
+| --- | :-: | :-: | :-: | :-: | :-: |
+| **Required Spend** | \$25 | \$100 | \$500 | \$1,000 | \$1,500 |
+| **BuiltByBit Discount** | ✘ | 5% | 5% | 10% | 15% |
+| **BuiltByBit Licenses** | ✘ | ✘ | 1x | 2x | 2x |
+| **Discord Ad Channel** | ✘ | ✘ | ✘ | ✘ | ✔ |
 
-    A local preview of your documentation will be available at `http://localhost:3000`.
-  </Step>
-</Steps>
+## **License Discount**
 
-## Custom ports
+As you progress through the **Customer** levels, you gain access to increased discounts applicable to license commissions at **Origin Creations**. For detailed information regarding license policies and conditions, please refer to our [Terms of Service](https://origincreations.gitbook.io/terms-of-services-commissions/misc/tos).
 
-By default, Mintlify uses port 3000. You can customize the port Mintlify runs on by using the `--port` flag. For example, to run Mintlify on port 3333, use this command:
+| **Service Type** | **Abbreviation** | **Base Cost** |
+| :-: | --- | :-: |
+| Minecraft Services - Type A | Minecraft - A | **\+80% extra** of the total price of the commission |
+| Minecraft Services - Type B | Minecraft - B | **\+75% extra** of the total price of the commission \+ \$**25** |
+| Minecraft Services - Type C | Minecraft - C | **\+100% extra** of the total price of the commission |
 
-```bash
-mint dev --port 3333
-```
+<Note>
+  All transactions are priced in **U.S. Dollars** (**USD**) and include a processing fee of **4.99%** \+ **\$0.49** for international payments.
+</Note>
 
-If you attempt to run Mintlify on a port that's already in use, it will use the next available port:
+|  | Customer | Pebble | Beryl | Abyss | Azure |
+| --- | :-: | :-: | :-: | :-: | :-: |
+| Minecraft - A | ✘ | 75% | 70% | 65% | 60% |
+| Minecraft - B | ✘ | 70% \+ \$20 | 65% \+ \$15 | 60% \+ \$10 | 55% \+ \$5 |
+| Minecraft - C | ✘ | 85% | 80% | 75% | 65% |
 
-```md
-Port 3000 is already in use. Trying 3001 instead.
-```
+<Note>
+  Keep in mind that all percentages, rates, and amounts are subject to updates **without prior notice** to ensure **flexibility** and **alignment** with our evolving services.
+</Note>
 
-## Mintlify versions
+## **Coral Status**
 
-Please note that each CLI release is associated with a specific version of Mintlify. If your local preview does not align with the production version, please update the CLI:
+**Coral Status** represents the highest level of customer recognition at **Origin Creations**. This status can be obtained by meeting a specified spending threshold or by completing a **one-time** payment, as outlined below.
 
-```bash
-npm mint update
-```
+<Check>
+  **Coral Status** is a **permanent** designation and not a subscription. Once the spending requirement is met or the one-time payment is completed, the status is granted indefinitely, with no recurring fees or monthly renewals.
+</Check>
 
-## Validating links
+|  | Cortal Status Benefits |
+| --- | :-: |
+| Required Spend | \+\$2,000 |
+| One-Time Payment | \$350 |
+| BuiltByBit Discount | 25% |
+| BuiltByBit Free Licenses | 4x |
+| Discord Ad Channel | ✔ |
+| Minecraft Services - Type A | 40% |
+| Minecraft Services - Type B | 40% |
+| Minecraft Services - Type C | 40% |
 
-The CLI can assist with validating links in your documentation. To identify any broken links, use the following command:
+<Info>
+  Please note that the exclusive discounts associated with **Coral Status** apply solely to licenses for our resources available on **BuiltByBit**. These discounts do not extend to custom commissions or other services outside this scope.
+</Info>
 
-```bash
-mint broken-links
-```
+<Tip>
+  If you're interested in purchasing **Coral Status** or exploring other products from our store, we encourage you to open a ticket through our Discord Server. Our team will be happy to assist you with your request.
+</Tip>
 
-## Deployment
-
-If the deployment is successful, you should see the following:
-
-<Frame>
-  <img
-    src="/images/checks-passed.png"
-    alt="Screenshot of a deployment confirmation message that says All checks have passed."
-    style={{ borderRadius: '0.5rem' }}
-  />
-</Frame>
-
-## Code formatting
-
-We suggest using extensions on your IDE to recognize and format MDX. If you're a VSCode user, consider the [MDX VSCode extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx) for syntax highlighting, and [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for code formatting.
-
-## Troubleshooting
-
-<AccordionGroup>
-  <Accordion title='Error: Could not load the "sharp" module using the darwin-arm64 runtime'>
-    This may be due to an outdated version of node. Try the following:
-
-    1. Remove the currently-installed version of the CLI: `npm remove -g mint`
-    2. Upgrade to Node v19 or higher.
-    3. Reinstall the CLI: `npm i -g mint`
-  </Accordion>
-
-  <Accordion title="Issue: Encountering an unknown error">
-    Solution: Go to the root of your device and delete the `~/.mintlify` folder. Then run `mint dev` again.
-  </Accordion>
-</AccordionGroup>
-
-Curious about what changed in the latest CLI version? Check out the [CLI changelog](https://www.npmjs.com/package/mintlify?activeTab=versions).
+> **Last modification:** 04/28/2026\
+> © Copyright 2026, Origin Creations. All rights reserved.

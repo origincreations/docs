@@ -9,123 +9,118 @@
   },
   "favicon": "/images/OriginCreations-RoundedLogo(512x512).png",
   "navigation": {
-    "products": [
+    "tabs": [
       {
-        "product": "test",
-        "tabs": [
+        "tab": "Information",
+        "groups": [
           {
-            "tab": "Information",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": [
-                  "index",
-                  "customer",
-                  "credits"
-                ]
-              },
-              {
-                "group": "Oasis Series - Builds",
-                "pages": []
-              },
-              {
-                "group": "Surge Series - Free",
-                "pages": []
-              },
-              {
-                "group": "Miscellaneous",
-                "pages": [
-                  "placeholder-list",
-                  "particles",
-                  "sounds",
-                  "potions",
-                  "enchantments"
-                ]
-              }
+            "group": "Getting started",
+            "pages": [
+              "index",
+              "customer",
+              "credits"
             ]
           },
           {
-            "tab": "Terms of Services",
-            "groups": [
-              {
-                "group": "Getting started",
-                "pages": [
-                  "tos"
-                ]
-              },
-              {
-                "group": "Minecraft Services",
-                "pages": [
-                  "mc-terms"
-                ]
-              },
-              {
-                "group": "Discord Services",
-                "pages": [
-                  "dc-tems"
-                ]
-              }
+            "group": "Oasis Series - Builds",
+            "pages": []
+          },
+          {
+            "group": "Surge Series - Free",
+            "pages": []
+          },
+          {
+            "group": "Miscellaneous",
+            "pages": [
+              "placeholder-list",
+              "particles",
+              "sounds",
+              "potions",
+              "enchantments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Terms of Services",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "tos"
             ]
           },
           {
-            "tab": "Dune Series"
+            "group": "Minecraft Services",
+            "pages": [
+              "mc-terms"
+            ]
           },
           {
-            "tab": "Hidden",
+            "group": "Discord Services",
+            "pages": [
+              "dc-tems"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Dune Series"
+      },
+      {
+        "tab": "Hidden",
+        "hidden": true,
+        "groups": [
+          {
+            "group": "Customization",
             "hidden": true,
-            "groups": [
-              {
-                "group": "Customization",
-                "hidden": true,
-                "pages": [
-                  "essentials/settings",
-                  "essentials/navigation"
-                ]
-              },
-              {
-                "group": "Writing content",
-                "hidden": true,
-                "pages": [
-                  "essentials/markdown",
-                  "essentials/code",
-                  "essentials/images",
-                  "essentials/components",
-                  "essentials/reusable-snippets"
-                ]
-              },
-              {
-                "group": "Agent ready",
-                "hidden": true,
-                "pages": [
-                  "agent-ready/prompt",
-                  "agent-ready/visibility",
-                  "agent-ready/contextual",
-                  "ai-tools/cursor",
-                  "ai-tools/claude-code",
-                  "ai-tools/windsurf"
-                ]
-              }
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
             ]
           },
           {
-            "tab": "API reference",
+            "group": "Writing content",
             "hidden": true,
-            "groups": [
-              {
-                "group": "API documentation",
-                "pages": [
-                  "api-reference/introduction"
-                ]
-              },
-              {
-                "group": "Endpoint examples",
-                "pages": [
-                  "api-reference/endpoint/get",
-                  "api-reference/endpoint/create",
-                  "api-reference/endpoint/delete",
-                  "api-reference/endpoint/webhook"
-                ]
-              }
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/components",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "Agent ready",
+            "hidden": true,
+            "pages": [
+              "agent-ready/prompt",
+              "agent-ready/visibility",
+              "agent-ready/contextual",
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "hidden": true,
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
