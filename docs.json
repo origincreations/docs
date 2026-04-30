@@ -65,7 +65,19 @@
         ]
       },
       {
-        "tab": "Dune Series"
+        "tab": "Dune Series | Menus",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": []
+          },
+          {
+            "group": "DeluxeMenus",
+            "pages": [
+              "potions-shop"
+            ]
+          }
+        ]
       },
       {
         "tab": "Hidden",
