@@ -80,6 +80,10 @@
             "pages": [
               "dune/potions-shop"
             ]
+          },
+          {
+            "group": "Packs",
+            "pages": []
           }
         ],
         "icon": "cactus"
