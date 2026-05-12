@@ -3,9 +3,9 @@
   "theme": "aspen",
   "name": "Origin Creations",
   "colors": {
-    "primary": "#00e398",
-    "light": "#71fdc1",
-    "dark": "#0083b3"
+    "primary": "#00cce3",
+    "light": "#72b5fc",
+    "dark": "#72b5fc"
   },
   "favicon": "/images/OriginCreations-RoundedLogo(512x512).png",
   "navigation": {
