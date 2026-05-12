@@ -4,8 +4,8 @@
   "name": "Origin Creations",
   "colors": {
     "primary": "#72b5fc",
-    "light": "#72b5fc",
-    "dark": "#00cce3"
+    "light": "#479ffc",
+    "dark": "#0088e3"
   },
   "favicon": "/images/OriginCreations-RoundedLogo(512x512).png",
   "navigation": {
