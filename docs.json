@@ -103,6 +103,12 @@
             "pages": [
               "harbor/jetsminions"
             ]
+          },
+          {
+            "group": "Packages",
+            "pages": [
+              "harbor/packages/jets"
+            ]
           }
         ]
       },
