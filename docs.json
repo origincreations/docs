@@ -40,7 +40,7 @@
             ]
           }
         ],
-        "icon": "door-open"
+        "icon": "rocket-launch"
       },
       {
         "tab": "Information",
@@ -64,7 +64,7 @@
             ]
           }
         ],
-        "icon": "ticket"
+        "icon": "bookmark"
       },
       {
         "tab": "Dune Series | Menus",
