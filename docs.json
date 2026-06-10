@@ -7,7 +7,10 @@
     "light": "#6aaef7",
     "dark": "#0088e3"
   },
-  "favicon": "/images/OriginCreations-RoundedLogo(512x512).png",
+  "favicon": {
+    "light": "/images/OriginCreations-RoundedBlue-Logo(512x512).png",
+    "dark": "/images/OriginCreations-RoundedBlue-Logo(512x512).png"
+  },
   "navigation": {
     "tabs": [
       {
@@ -172,7 +175,10 @@
       }
     ]
   },
-  "logo": "/images/OriginCreations-RoundedLogo(512x512).png",
+  "logo": {
+    "light": "/images/OriginCreations-RoundedBlue-Logo(512x512).png",
+    "dark": "/images/OriginCreations-RoundedBlue-Logo(512x512).png"
+  },
   "navbar": {
     "links": [
       {
